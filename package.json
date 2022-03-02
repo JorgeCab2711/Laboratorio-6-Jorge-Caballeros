@@ -1,0 +1,21 @@
+{
+  "name": "laboratorio-6-jorge-caballeros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private":"true",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeCab2711/Laboratorio-6-Jorge-Caballeros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeCab2711/Laboratorio-6-Jorge-Caballeros/issues"
+  },
+  "homepage": "https://github.com/JorgeCab2711/Laboratorio-6-Jorge-Caballeros#readme",
+  "description": ""
+}
