@@ -1,10 +1,11 @@
 {
   "name": "laboratorio-6-jorge-caballeros",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "private":"true",
+  "private": "true",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
     "url": "https://github.com/JorgeCab2711/Laboratorio-6-Jorge-Caballeros/issues"
   },
   "homepage": "https://github.com/JorgeCab2711/Laboratorio-6-Jorge-Caballeros#readme",
-  "description": ""
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
