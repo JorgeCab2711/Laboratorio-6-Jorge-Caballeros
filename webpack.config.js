@@ -19,57 +19,57 @@ module.exports = {
         new HtmlWebPackPlugin({
             filename: '1B.html',
             template: "./src/1B.html",
-            chunks:['1B']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '2A.html',
             template: "./src/2A.html",
-            chunks:['2A']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '2B.html',
             template: "./src/2B.html",
-            chunks:['2B']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '3A.html',
             template: "./src/3A.html",
-            chunks:['3A']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '3B.html',
             template: "./src/3B.html",
-            chunks:['3B']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '4A.html',
             template: "./src/4A.html",
-            chunks:['4A']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '4B.html',
             template: "./src/4B.html",
-            chunks:['4B']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: '5A.html',
             template: "./src/5A.html",
-            chunks:['5A']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: 'bruh.html',
             template: "./src/whatJusthappened/bruh.html",
-            chunks:['bruh']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: 'happened.html',
             template: "./src/whatJusthappened/happened.html",
-            chunks:['happened']
+            chunks:[]
         }),
         new HtmlWebPackPlugin({
             filename: 'what_just.html',
             template: "./src/whatJusthappened/what_just.html",
-            chunks:['what_just']
+            chunks:[]
         })
     ],
     
@@ -91,7 +91,7 @@ module.exports = {
                         options: {
                             name:'[name].[ext]',
                             outputPath:"Imagenes/",
-                            publicpaht:"Imagenes/"
+                            publicpath:"Imagenes/"
                         }
                     }
                 ]
