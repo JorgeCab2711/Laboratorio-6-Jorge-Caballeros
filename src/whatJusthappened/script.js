@@ -15,11 +15,4 @@ window.onload = function(){
     contenedor.style.position           = 'relative';
     contenedor.style.left               = '45%';
     contenedor.style.bottom             = '50%';
-    
-
-    
-
-
-    
-
 };

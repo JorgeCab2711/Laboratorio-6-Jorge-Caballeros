@@ -12,6 +12,7 @@ module.exports = {
         path: path.resolve(__dirname,"dist")
     },
     plugins:[
+        
         new HtmlWebPackPlugin({
             filename: 'index.html',
             template: "./index.html",
@@ -100,6 +101,16 @@ module.exports = {
                     }
                 ]
             },
+            {
+                test: /\.m?js/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: 'babel-loader',
+                    options:{
+                        presets:['@babel/preset-env']
+                    }
+                }
+            }
             
         ]
     }

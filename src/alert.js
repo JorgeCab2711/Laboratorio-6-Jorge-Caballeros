@@ -17,4 +17,5 @@ window.onload = function() {
 
 function showAlert(){
     alert('Felicidades! Terminaste el juego!');
+    console.log("Funciona");
 }
