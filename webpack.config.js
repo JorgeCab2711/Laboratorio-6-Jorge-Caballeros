@@ -1,3 +1,4 @@
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require("path");
 var HtmlWebPackPlugin = require('html-webpack-plugin');
 const { name } = require("file-loader");
@@ -70,7 +71,10 @@ module.exports = {
             filename: 'what_just.html',
             template: "./src/whatJusthappened/what_just.html",
             chunks:[]
-        })
+        }),
+        new CleanWebpackPlugin({
+            verbose: true,
+        }),
     ],
     
     module:{
@@ -100,3 +104,4 @@ module.exports = {
         ]
     }
 };
+
